@@ -24,51 +24,7 @@ enum brand {
 enum stage {
     case first, second, third
 }
-//struct sportCar {
-//    let brand: String
-//    let year: Int
-//    let volumeTrunk: Int
-//    let volumeBody: Int
-//    var engine: carEngine
-//    mutating func startEngine(){
-//      self .engine = .запущен
-//      self .engine = .выключен
-//    }
-//    var window: carWindow
-//    mutating func openWindow(){
-//        self .window = .открыты
-//        self .window = .закрыты
-//    }
-//    var trunk: carTrunk
-//    mutating func putInTrunk(){/
-//        self .trunk = .пу/ст
-//        self .trunk = .з/аполнен
-//    }
-//}
 
-//struct trunkCar {
-//    let brand: String
-//    let year: Int
-//    let volumeTrunk: Int
-//    let volumeBody: Int
-//    var engine: carEngine
-//    mutating func startEngine(){
-//        self .engine = .запущен
-//        self .engine = .выключен
-//    }
-//    var window: carWindow
-//    mutating func openWindow(){
-//        self .window = .открыты
-//        self .window = .закрыты
-//    }
-//    var trunk: carTrunk
-//    mutating func putInTrunk(){
-//        self .trunk = .пуст
-//        self .trunk = .заполнен
-//    }
-//}
-
-//Описать класс Car c общими свойствами автомобилей и пустым методом действия по аналогии с прошлым заданием.
 class Car {
     let brand: brand
     let year: Int
